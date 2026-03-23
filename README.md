@@ -184,8 +184,7 @@ predictions = project_1_scoring(new_data, model_type='h2o')
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your_username/sba-loan-default-prediction.git
-cd sba-loan-default-prediction
+git clone https://github.com/bass990/-Small-Business-Administration-loan-default-prediction.git
 ```
 
 ### 2. Install dependencies
