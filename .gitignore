@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python caches / local envs
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / temp artifacts
+*.log
+*.tmp
+*.bak
+
+# Artifacts
+artifacts/titanic_artifacts.pkl
+
+# Do not publish compressed/raw auxiliary bundles (except required data files)
+# *.zip  # Commented out - we need to keep specific data files
+# *.gz
+
+# Keep only student-facing project data
+data/*
+!data/SBA_loans_project_1.csv.zip
+!data/SBA_loans_project_1_holdout_students_valid_no_labels.csv.zip
