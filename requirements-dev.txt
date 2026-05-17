@@ -1,0 +1,30 @@
+# ── Development / notebook environment ────────────────────────────────────────
+# Install with: pip install -r requirements-dev.txt
+# Includes everything in requirements.txt plus H2O and notebook tooling.
+
+-r requirements.txt
+
+# H2O (requires Java 11+)
+h2o>=3.46.0
+
+# Notebook
+notebook>=7.0.0
+ipykernel>=6.0.0
+ipywidgets>=8.0.0
+nbconvert
+jupyter
+
+# Extra ML (experiments, SHAP explanations)
+xgboost>=2.0.0
+shap>=0.44.0
+optuna>=3.0.0
+
+# Data / IO utilities
+polars>=0.20.0
+pyarrow>=14.0.0
+
+# Misc
+matplotlib>=3.7.0
+seaborn>=0.12.0
+mlxtend>=0.22.0
+graphviz>=0.20.0
